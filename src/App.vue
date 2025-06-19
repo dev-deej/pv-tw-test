@@ -1,6 +1,10 @@
 <script setup lang="ts">
 import { RouterLink, RouterView } from 'vue-router'
-import HelloWorld from './components/HelloWorld.vue'
+import InputText from 'primevue/inputtext';
+import Button from 'primevue/button';
+import {ref} from "vue";
+
+const text = ref<string>('');
 </script>
 
 <template>
@@ -8,7 +12,18 @@ import HelloWorld from './components/HelloWorld.vue'
     <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" />
 
     <div class="wrapper">
-      <HelloWorld msg="You did it!" />
+
+      <h3>
+        PrimeVue + Tailwind Test
+      </h3>
+
+      <br>
+
+      <div>
+        <InputText v-model="text"/>
+        <Button label="Button"/>
+      </div>
+
 
       <nav>
         <RouterLink to="/">Home</RouterLink>

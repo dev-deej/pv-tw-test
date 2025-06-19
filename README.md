@@ -1,19 +1,20 @@
 # pv-tw-test
 
-This template should help get you started developing with Vue 3 in Vite.
+A sample project to try to get tailwind v4 running with primevue v4 
 
-## Type Support for `.vue` Imports in TS
-
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
-
-## Customize configuration
+## Resources
 
 See [Vite Configuration Reference](https://vite.dev/config/).
+
+See [Install PrimeVue with Vite](https://primevue.org/vite/)
 
 ## Project Setup
 
 ```sh
+npm create vue@latest
 npm install
+npm install primevue
+npm install primevue/themes
 ```
 
 ### Compile and Hot-Reload for Development
