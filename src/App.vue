@@ -13,11 +13,9 @@ const text = ref<string>('');
 
     <div class="wrapper">
 
-      <h3>
-        PrimeVue + Tailwind Test
-      </h3>
-
-      <br>
+      <div>
+        <h3>Vue3 + PrimeVue 4 + Tailwind 4 Test</h3>
+      </div>
 
       <div>
         <InputText v-model="text"/>
