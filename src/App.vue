@@ -14,14 +14,13 @@ const text = ref<string>('');
     <div class="wrapper">
 
       <div>
-        <h3>Vue3 + PrimeVue 4 + Tailwind 4 Test</h3>
+        <h3 class="">Vue3 + PrimeVue 4 + Tailwind 4 Test</h3>
       </div>
 
       <div>
         <InputText v-model="text"/>
         <Button label="Button"/>
       </div>
-
 
       <nav>
         <RouterLink to="/">Home</RouterLink>
